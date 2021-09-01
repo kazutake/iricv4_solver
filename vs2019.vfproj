@@ -45,7 +45,8 @@
 				<Tool Name="VFPostBuildEventTool"/>
 				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
 	<Files>
-		<Filter Name="ソースファイル" Filter="f90;for;f;fpp;ftn;def;odl;idl"/>
+		<Filter Name="ソースファイル" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\src\main.f90"/></Filter>
 		<Filter Name="ヘッダーファイル" Filter="fi;fd;h;inc"/>
 		<Filter Name="リソースファイル" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/></Files>
 	<Globals/></VisualStudioProject>
